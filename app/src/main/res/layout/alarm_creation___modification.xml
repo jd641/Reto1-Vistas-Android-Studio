@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_gradient"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/main_customization_scene">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="720dp"
+        android:layout_marginTop="-24dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/bg_2_desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg2_" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="-48dp"
+        android:layout_marginBottom="48dp"
+        android:contentDescription="@string/bg_3_desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg3_" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="410dp"
+        android:layout_height="720dp"
+        android:layout_marginTop="-48dp"
+        android:layout_marginBottom="48dp"
+        android:contentDescription="@string/bg_1_desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg1_" />
+
+    <ImageView
+        android:id="@+id/imageView_Bg3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/semi_transparent_black"
+        android:contentDescription="@string/main_bg_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView_Bg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bg4_"
+        android:contentDescription="@string/main_bg_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button4"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="-48dp"
+        android:layout_marginBottom="48dp"
+        android:contentDescription="@string/bg_3_desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/alarm_title"
+        android:text="@string/alarm_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/customization_button"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="@id/imageView_Bg4"
+        app:layout_constraintStart_toStartOf="@id/imageView_Bg4"
+        app:layout_constraintEnd_toEndOf="@id/imageView_Bg4"
+        app:layout_constraintVertical_bias="0.04"
+        app:layout_constraintBottom_toBottomOf="@id/imageView_Bg4"/>
+
+    <ImageButton
+        android:id="@+id/button4"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/transparent"
+        android:contentDescription="@string/main_imgBtn_desc1"
+        android:src="@drawable/icon_return"
+        app:layout_constraintBottom_toBottomOf="@id/imageView_Bg3"
+        app:layout_constraintEnd_toEndOf="@id/imageView_Bg3"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="@id/imageView_Bg3"
+        app:layout_constraintTop_toTopOf="@id/imageView_Bg3"
+        app:layout_constraintVertical_bias="0.008" />
+
+    <ImageView
+        android:id="@+id/imageView_Bg5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/imageView_Bg4"
+        app:layout_constraintBottom_toBottomOf="@id/imageView_Bg4"
+        app:layout_constraintStart_toStartOf="@id/imageView_Bg4"
+        app:layout_constraintEnd_toEndOf="@id/imageView_Bg4"
+        app:layout_constraintVertical_bias="0.13"
+        app:srcCompat="@drawable/bg5_" />
+
+    <EditText
+        android:id="@+id/editText"
+        style="@style/customization_button"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="@string/first_activity"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toBottomOf="@id/imageView_Bg3"
+        app:layout_constraintEnd_toEndOf="@id/imageView_Bg3"
+        app:layout_constraintStart_toStartOf="@id/imageView_Bg3"
+        app:layout_constraintTop_toTopOf="@id/imageView_Bg3"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <ImageView
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/imageView_Bg5"
+        app:layout_constraintEnd_toEndOf="@id/imageView_Bg5"
+        app:layout_constraintStart_toEndOf="@id/editText"
+        app:layout_constraintTop_toTopOf="@id/imageView_Bg5"
+        app:srcCompat="@drawable/icon_edit" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/customization_button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="@string/main_time_content"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textAlignment="viewEnd"
+        android:fontFamily="@font/kanit_light"
+        app:layout_constraintBottom_toBottomOf="@id/imageView_Bg4"
+        app:layout_constraintEnd_toEndOf="@id/imageView_Bg4"
+        app:layout_constraintStart_toStartOf="@id/imageView_Bg4"
+        app:layout_constraintTop_toTopOf="@id/imageView_Bg4"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <TextView
+        android:id="@+id/textViewAM"
+        style="@style/customization_button"
+        android:layout_width="24dp"
+        android:layout_height="wrap_content"
+        android:text="AM"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textAlignment="viewStart"
+        android:fontFamily="@font/kanit_light"
+        app:layout_constraintBottom_toBottomOf="@id/textView"
+        app:layout_constraintEnd_toEndOf="@id/imageView_Bg4"
+        app:layout_constraintStart_toEndOf="@id/textView"
+        app:layout_constraintTop_toTopOf="@id/textView"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintVertical_bias="0" />
+
+    <TextView
+        android:id="@+id/textViewPM"
+        style="@style/customization_button"
+        android:layout_width="24dp"
+        android:layout_height="wrap_content"
+        android:text="PM"
+        android:textColor="@color/UnselectedTime"
+        android:textSize="14sp"
+        android:textAlignment="viewStart"
+        android:fontFamily="@font/kanit_light"
+        app:layout_constraintBottom_toBottomOf="@id/textView"
+        app:layout_constraintEnd_toEndOf="@id/imageView_Bg4"
+        app:layout_constraintStart_toEndOf="@id/textView"
+        app:layout_constraintTop_toTopOf="@id/textView"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintVertical_bias="1" />
+
+    <TextView
+        android:id="@+id/alarm_text1"
+        style="@style/alarm_system_main_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/alarm_text1"
+        app:layout_constraintStart_toStartOf="@id/imageView_Bg5"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/alarm_text1"
+        app:layout_constraintBottom_toBottomOf="@id/alarm_text1"
+        app:layout_constraintEnd_toEndOf="@id/imageView_Bg5" />
+
+    <TextView
+        android:id="@+id/alarm_text2"
+        style="@style/alarm_system_main_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/alarm_text2"
+        app:layout_constraintStart_toStartOf="@id/imageView_Bg5"
+        app:layout_constraintTop_toBottomOf="@id/alarm_text1" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/alarm_text2"
+        app:layout_constraintBottom_toBottomOf="@id/alarm_text2"
+        app:layout_constraintEnd_toEndOf="@id/imageView_Bg5" />
+
+    <TextView
+        android:id="@+id/alarm_text3"
+        style="@style/alarm_system_main_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/alarm_text3"
+        app:layout_constraintStart_toStartOf="@id/imageView_Bg5"
+        app:layout_constraintTop_toBottomOf="@id/alarm_text2" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        app:layout_constraintTop_toTopOf="@id/alarm_text3"
+        app:layout_constraintBottom_toBottomOf="@id/alarm_text3"
+        app:layout_constraintEnd_toEndOf="@id/imageView_Bg5"/>
+
+    <TextView
+        android:id="@+id/alarm_text4"
+        style="@style/alarm_system_main_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/alarm_text4"
+        app:layout_constraintStart_toStartOf="@id/imageView_Bg5"
+        app:layout_constraintTop_toBottomOf="@id/alarm_text3" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/alarm_text4"
+        app:layout_constraintBottom_toBottomOf="@id/alarm_text4"
+        app:layout_constraintEnd_toEndOf="@id/imageView_Bg5"/>
+
+    <TextView
+        android:id="@+id/alarm_text5"
+        style="@style/alarm_system_main_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/alarm_text5"
+        app:layout_constraintStart_toStartOf="@id/imageView_Bg5"
+        app:layout_constraintTop_toBottomOf="@id/alarm_text4" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/alarm_text5"
+        app:layout_constraintBottom_toBottomOf="@id/alarm_text5"
+        app:layout_constraintEnd_toEndOf="@id/imageView_Bg5"/>
+
+    <TextView
+        android:id="@+id/alarm_text6"
+        style="@style/alarm_system_main_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/alarm_text6"
+        app:layout_constraintStart_toStartOf="@id/imageView_Bg5"
+        app:layout_constraintTop_toBottomOf="@id/alarm_text5" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/alarm_text6"
+        app:layout_constraintBottom_toBottomOf="@id/alarm_text6"
+        app:layout_constraintEnd_toEndOf="@id/imageView_Bg5" />
+
+    <TextView
+        android:id="@+id/alarm_text7"
+        style="@style/alarm_system_main_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/alarm_text7"
+        app:layout_constraintStart_toStartOf="@id/imageView_Bg5"
+        app:layout_constraintTop_toBottomOf="@id/alarm_text6" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        app:layout_constraintTop_toTopOf="@id/alarm_text7"
+        app:layout_constraintBottom_toBottomOf="@id/alarm_text7"
+        app:layout_constraintEnd_toEndOf="@id/imageView_Bg5"/>
+
+    <TextView
+        android:id="@+id/alarm_text8"
+        style="@style/alarm_system_main_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/alarm_text8"
+        app:layout_constraintStart_toStartOf="@id/imageView_Bg5"
+        app:layout_constraintTop_toBottomOf="@id/alarm_text7" />
+
+    <Button
+        android:id="@+id/audio_selector"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:text="@string/alarm_text9"
+        android:textSize="14sp"
+        android:fontFamily="@font/kanit_light"
+        android:backgroundTint="@color/main_color"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toTopOf="@id/alarm_text8"
+        app:layout_constraintEnd_toEndOf="@id/imageView_Bg5" />
+
+    <Button
+        android:id="@+id/alarm_accept"
+        android:layout_width="100dp"
+        android:layout_height="38dp"
+        android:text="@string/alarm_text10"
+        android:textSize="12sp"
+        android:fontFamily="@font/kanit_light"
+        android:backgroundTint="@color/main_color"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toTopOf="@id/alarm_text8"
+        app:layout_constraintEnd_toEndOf="@id/imageView_Bg5"
+        app:layout_constraintBottom_toBottomOf="@id/imageView_Bg4"
+        app:layout_constraintVertical_bias="0.8"/>
+
+    <Button
+        android:id="@+id/alarm_cancel"
+        android:layout_width="100dp"
+        android:layout_height="38dp"
+        android:text="@string/alarm_text11"
+        android:textSize="12sp"
+        android:fontFamily="@font/kanit_light"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="18dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dip"
+        app:layout_constraintTop_toTopOf="@id/alarm_text8"
+        app:layout_constraintEnd_toStartOf="@id/alarm_accept"
+        app:layout_constraintBottom_toBottomOf="@id/imageView_Bg4"
+        app:layout_constraintVertical_bias="0.8"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Decode app</string>
+
+    <string name="bg_1_desc">Fondo Principal No.1</string>
+    <string name="bg_2_desc">Fondo Principal No.2</string>
+    <string name="bg_3_desc">Fondo Principal No.3</string>
+    <string name="main_imgBtn_desc1">Icono principal No.1</string>
+    <string name="main_imgBtn_desc2">Icono principal No.2</string>
+    <string name="main_imgBtn_desc3">Icono principal No.3</string>
+    <string name="main_bg_desc">Fondo lateral principal</string>
+    <string name="main_bg2_desc">Componente del fondo lateral principal</string>
+
+    <string name="main_btn_content">Administrar alarmas</string>
+    <string name="main_custom_btn_content">Menú de personalización</string>
+    <string name="main_config_btn_content">Configuración</string>
+    <string name="base_alarm_btn_content">Administrar alarmas</string>
+
+    <string name="alarm_title">Personalizar actividad</string>
+    <string name="base_alarm_routine_cntr">Rutinas actuales</string>
+    <string name="first_activity">Primera actividad</string>
+    <string name="second_activity">Segunda actividad</string>
+    <string name="alarm_text1">Activar notificación</string>
+    <string name="alarm_text2">Activar vibración</string>
+    <string name="alarm_text3">Intensidad de vibración</string>
+    <string name="alarm_text4">Tipo de vibración</string>
+    <string name="alarm_text5">Repetir</string>
+    <string name="alarm_text6">Reproducir audio</string>
+    <string name="alarm_text7">Volumen de audio</string>
+    <string name="alarm_text8">Seleccionar archivo de audio</string>
+    <string name="alarm_text9">Seleccionar archivo</string>
+    <string name="alarm_text10">Aceptar</string>
+    <string name="alarm_text11">Cancelar</string>
+
+    <string name="main_custom_btn1">Estilo de diseño</string>
+    <string name="main_custom_btn2">Color principal</string>
+    <string name="main_config_btn">Personalizar</string>
+    <string name="main_config_btn2">Configurar fecha y hora</string>
+    <string name="main_config_btn3">Administrar aplicación</string>
+    <string name="main_config_btn4">Administrar permisos</string>
+    <string name="main_config_btn5">Acerca de...</string>
+    <string name="main_config_btn6">Salir</string>
+
+    <string name="main_textDay_content">24</string>
+    <string name="main_textDayTime_content">Día</string>
+    <string name="main_text_content">Domingo</string>
+    <string name="main_textMonth_content">Diciembre</string>
+    <string name="main_time_content">12:00</string>
+    <string name="main_time_content1">12:00AM</string>
+    <string name="main_time_content2">2023</string>
+</resources>

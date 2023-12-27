@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="customization_unused_button">
+        <item name="android:backgroundTint">@color/transparent</item>
+        <item name="strokeWidth">1dip</item>
+        <item name="strokeColor">@color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:text">@string/main_custom_btn_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/kanit_medium</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="configuration_unused_button">
+        <item name="android:backgroundTint">@color/transparent</item>
+        <item name="strokeWidth">1dip</item>
+        <item name="strokeColor">@color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:text">@string/main_config_btn_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/kanit_medium</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="alarm_system_unused_button">
+        <item name="android:backgroundTint">@color/transparent</item>
+        <item name="strokeWidth">1dip</item>
+        <item name="strokeColor">@color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:text">@string/base_alarm_btn_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/kanit_medium</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="alarm_system_main_button">
+        <item name="android:backgroundTint">@color/transparent</item>
+        <item name="strokeWidth">1dip</item>
+        <item name="strokeColor">@color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:text">@string/base_alarm_routine_cntr</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/kanit_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="alarm_system_main_text">
+        <item name="strokeColor">@color/black</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:fontFamily">@font/kanit_medium</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="customization_button">
+        <item name="android:backgroundTint">@color/transparent</item>
+        <item name="android:textAlignment">center</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/kanit_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="configuration_button">
+        <item name="android:backgroundTint">@color/transparent</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/kanit_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="main_button">
+        <item name="android:text">@string/main_btn_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="android:fontFamily">@font/kanit_medium</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+    <style name="main_imageButton">
+        <item name="android:backgroundTint">@color/black</item>
+    </style>
+    <style name="inputText">
+        <item name="strokeWidth">1dip</item>
+        <item name="strokeColor">@color/textInputBrdr</item>
+        <item name="backgroundTint">@color/textInputBg</item>
+    </style>
+    <style name="main_textView_day">
+        <item name="android:text">@string/main_text_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/kanit_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:rotation">-90</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+
+    <style name="main_textView_dayTime">
+        <item name="android:text">@string/main_textDayTime_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/kanit_light</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:rotation">-90</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+
+    <style name="main_textView_month">
+        <item name="android:text">@string/main_textMonth_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/russoone_regular</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:rotation">-90</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:letterSpacing">0.5</item>
+    </style>
+
+    <style name="main_textView_time1">
+        <item name="android:text">@string/main_time_content1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/russoone_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+
+    <style name="main_textView_time2">
+        <item name="android:text">@string/main_time_content2</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">@font/kanit_light</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:letterSpacing">0.15</item>
+    </style>
+</resources>
